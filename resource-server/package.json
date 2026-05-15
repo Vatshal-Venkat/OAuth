@@ -1,7 +1,7 @@
 {
-  "name": "auth-server",
+  "name": "resource-server",
   "version": "1.0.0",
-  "description": "OAuth 2.0 Authorization Server with PKCE",
+  "description": "OAuth 2.0 Resource Server - validates JWT Bearer tokens",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,8 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.2",
-    "cookie-parser": "^1.4.7",
     "express": "^5.2.1",
     "jose": "^6.2.3"
   }

@@ -1,7 +1,7 @@
 {
-  "name": "auth-server",
+  "name": "client-app",
   "version": "1.0.0",
-  "description": "OAuth 2.0 Authorization Server with PKCE",
+  "description": "OAuth 2.0 Client App with PKCE",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -14,7 +14,6 @@
   "dependencies": {
     "body-parser": "^2.2.2",
     "cookie-parser": "^1.4.7",
-    "express": "^5.2.1",
-    "jose": "^6.2.3"
+    "express": "^5.2.1"
   }
 }
